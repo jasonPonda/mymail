@@ -1,0 +1,36 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  margin: 10rem;
+  padding: 30px;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(202, 152, 110);
+}
+
+.formContent {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0 0 22%;
+  border: 5px solid #a8b1ae;
+  border-radius: 16px;
+  width: 55%;
+}
+
+input {
+  margin: 1rem;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+input[type="button"] {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(43, 43, 114);
+  color: #fff;
+  width: 25%;
+  margin-left: 38.5%;
+  cursor: pointer;
+}
